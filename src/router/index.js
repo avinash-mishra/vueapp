@@ -6,6 +6,7 @@ import Autocomplete from '@/components/AutoComplete'
 import Sortable from '@/components/Sortable'
 import NewTextBox from '@/components/NewTextBox'
 import mainFile from '@/components/mainFile.vue'
+import formv from '@/components/form.vue'
 
 Vue.use(Router)
 
@@ -40,6 +41,11 @@ export default new Router({
     path: '/mainfile',
     name: 'mainfile',
     component: mainFile
-  }
+  },
+  {
+    path: '/formv',
+    name: 'formv',
+    component: formv
+  },
   ]
 })
