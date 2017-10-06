@@ -1,6 +1,11 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Hello from '@/components/Hello'
+import Test from '@/components/Test'
+import Autocomplete from '@/components/AutoComplete'
+import Sortable from '@/components/Sortable'
+import NewTextBox from '@/components/NewTextBox'
+import mainFile from '@/components/mainFile.vue'
 
 Vue.use(Router)
 
@@ -10,6 +15,31 @@ export default new Router({
       path: '/',
       name: 'Hello',
       component: Hello
-    }
+    },
+    {
+      path: '/test',
+      name: 'test',
+      component: Test
+    },
+    {
+      path: '/autocomplete',
+      name: 'autocomplete',
+      component: Autocomplete
+    },
+    {
+      path: '/sortable',
+      name: 'sortable',
+      component: Sortable
+  },
+  {
+    path: '/newtextbox',
+    name: 'newtextbox',
+    component: NewTextBox
+  },
+  {
+    path: '/mainfile',
+    name: 'mainfile',
+    component: mainFile
+  }
   ]
 })
