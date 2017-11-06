@@ -7,6 +7,7 @@ import Sortable from '@/components/Sortable'
 import NewTextBox from '@/components/NewTextBox'
 import mainFile from '@/components/mainFile.vue'
 import formv from '@/components/form.vue'
+import sorthead from '@/components/sortTableHead.vue'
 
 Vue.use(Router)
 
@@ -16,6 +17,11 @@ export default new Router({
       path: '/',
       name: 'Hello',
       component: Hello
+    },
+    {
+      path: '/sorthead',
+      name: 'sorthead',
+      component: sorthead
     },
     {
       path: '/test',
