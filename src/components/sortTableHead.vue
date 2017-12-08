@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <div>
     <code>query: {{ query }}</code>
     <datatable v-bind="$data" />
@@ -31,4 +31,4 @@ export default {
     }
   }
 }
-</script>
+</script> -->
